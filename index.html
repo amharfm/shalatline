@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shalat Movement: 2018 - </title>
+	<script src="lib/easeljs-0.8.2.min.js"></script>
+	<script src="index.js"></script>
+	<style type="text/css">
+		@font-face {
+			font-family: 'Sawasdee';
+			src: url('ref/Sawasdee.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		h2,h6,#loc_ {
+			color: #f0e08f;
+			font-family: 'Sawasdee';
+		}
+
+		#loc_ {
+			text-decoration: none;
+			font-size: 14px;
+		}
+
+	</style>
+</head>
+<body onload="init();" bgcolor="#171717">
+	<center>
+	<h2>365 Days of Shalat</h2>
+	<div id="loc_"> 
+		<a id="loc_" href="#turku">Turku </a>/
+		<a id="loc_" href="#bdg">Bandung </a>/
+		<a id="loc_" href="#puntaarenas">Punta Arenas</a>
+		(Click!)
+	</div>
+	<div align="right" style="width:600px"><img src="ref/4583b0ad.png" width=16></div>
+	<canvas id="poster" width="600" height="600"></canvas>
+	<h6>
+		<img src="asset/legend.png">
+		<p style="font-size: 14px;">Data is obtained from islamicfinder.org, transferred all the way from <br>web text > notepad > excel > sqlite > JSON</p>
+		<p style="font-size: 12px; color:#5ECF8A;">amhar.fm - 2018</p>
+	</h6>
+	</center>
+</body>
+</html>
